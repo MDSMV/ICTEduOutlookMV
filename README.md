@@ -2,7 +2,7 @@
 
 30.11.2018
 
-Abdulla Samir (Cat)
+Abdulla Samir (Cat) @rootsysadmin
 MV Developers 
 Maldives
 
@@ -61,7 +61,7 @@ The research report is shared with stakeholders for comments and the final resea
 
 # Conclusion:
 
-As Ben Parker said to Spiderman, “With Great Power, Comes Great Responsibility”. We may not have great powers, but I believe we are strong advocates of high quality IT education in Maldives. And that gives us great enough power to take the responsibility of ensuring that the future of Maldives is bright with highly skilled and passionate individuals steering the wheel of the Maldivian IT industry. It is my great hope that all of you will assist in this project and I sincerely request all your help and support in any way you can to ensure that this, much needed research project is a success. 
+As Ben Parker said to Spiderman, “With Great Power, Comes Great Responsibility”. We may not have great powers, but I believe we are strong advocates of high quality IT education in Maldives. And that gives us great enough power to take the responsibility of ensuring that the future of Maldives is bright with highly skilled and passionate individuals steering the wheel of the Maldivian IT industry. It is my great hope that all of you will assist in this project and I sincerely request all your help and support in any way you can to ensure that this, much needed rupesearch project is a success. 
 
 # Acknowledgements:
 The idea for this research would not have happened if not for the fruitful insight of our mates @isseykun aka Dhiraagu Isse and @haaaah aka Somebody @ Earth. Additionally @hammadh_ar aka Hammad A. Rahman and @shihaam_me aka Shihaam Abdul Rahman also made valuable contributions to the discussion. I would also like to thank the MV Developers community for making the discussion/coffee possible.
