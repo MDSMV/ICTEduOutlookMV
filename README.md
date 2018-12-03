@@ -86,5 +86,9 @@ The idea for this research would not have happened if not for the fruitful insig
 - Do you believe you have gained enough knowledge in your course? (so far?) Yes/No
 - What do you think can be done to improve the quality of education in your institution? (Opinion)
 
+## Links
+https://www.dhe.gov.mv/institutes
+http://www.mqa.gov.mv/institutes/local
+
 ## Initial Google Form
 https://docs.google.com/forms/d/e/1FAIpQLSdXhJPQZCMu1tk2zwtdhY86401eXSa54CWU50MAahWkjOrPVg/viewform
