@@ -1,6 +1,6 @@
-# before running the script
-# npm install --save request
-# npm install --save request-promise
+// before running the script
+// npm install --save request
+// npm install --save request-promise
 
 var institutes = require('request-promise');
 var courses = require('request-promise'); 
