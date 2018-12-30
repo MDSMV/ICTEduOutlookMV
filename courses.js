@@ -4,7 +4,7 @@
 
 var institutes = require('request-promise');
 var courses = require('request-promise'); 
-var ins_cou = new Object();
+const fs = require('fs');
 institutes({
   "method":"GET", 
   "uri": "http://mqa.gov.mv/api/v1/institutes/local",
@@ -13,10 +13,8 @@ institutes({
     "User-Agent": "Data Mining"
   }
 }).then(function(response){
-
+	fs.writeFileSync('mqa_institutes.json', JSON.stringify(response));
 	for (i in response){
-		// ins_cou.institute = i.name;
-		console.log(response[i].name);	
 		courses({
 	 		"method":"GET",
   			"uri": "http://mqa.gov.mv/api/v1/institutes/"+response[i].id+"/courses",
@@ -25,9 +23,11 @@ institutes({
     				"User-Agent": "Data Mining"
   			}		
 		}).then(function(result){
-			const fs = require('fs');
-			fs.writeFileSync(i+'courses.json', JSON.stringify(result)); 	
+			for (j in result){
+				fs.writeFileSync(result[j].institute_id+'courses', JSON.stringify(result));	
+			}
 		})
+
 	}
 });
 
