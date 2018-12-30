@@ -1,6 +1,6 @@
 var institutes = require('request-promise');
 var courses = require('request-promise'); 
-var ins_cou = new Object();
+// var ins_cou = new Object();
 institutes({
   "method":"GET", 
   "uri": "http://mqa.gov.mv/api/v1/institutes/local",
@@ -12,7 +12,7 @@ institutes({
 
 	for (i in response){
 		// ins_cou.institute = i.name;
-		console.log(response[i].name);	
+		console.log(response.name);	
 		courses({
 	 		"method":"GET",
   			"uri": "http://mqa.gov.mv/api/v1/institutes/"+response[i].id+"/courses",
